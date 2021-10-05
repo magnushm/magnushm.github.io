@@ -1,4 +1,4 @@
-baseURL = "https://magnushm.github.io"
+baseURL = "https://magnushm.github.io/"
 title = "Magnus Thurn"
 theme = "hugo-coder"
 languageCode = "en"
