@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://magnushm.github.io/pt-br/authors/</loc>
+    <loc>/pt-br/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://magnushm.github.io/authors/"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://magnushm.github.io/pt-br/authors/"
+                href="/pt-br/authors/"
                 />
   </url><url>
-    <loc>https://magnushm.github.io/pt-br/categories/</loc>
+    <loc>/pt-br/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://magnushm.github.io/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://magnushm.github.io/pt-br/categories/"
+                href="/pt-br/categories/"
                 />
   </url><url>
-    <loc>https://magnushm.github.io/pt-br/</loc>
+    <loc>/pt-br/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://magnushm.github.io/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://magnushm.github.io/pt-br/"
+                href="/pt-br/"
                 />
   </url><url>
-    <loc>https://magnushm.github.io/pt-br/series/</loc>
+    <loc>/pt-br/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://magnushm.github.io/series/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://magnushm.github.io/pt-br/series/"
+                href="/pt-br/series/"
                 />
   </url><url>
-    <loc>https://magnushm.github.io/pt-br/tags/</loc>
+    <loc>/pt-br/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://magnushm.github.io/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://magnushm.github.io/pt-br/tags/"
+                href="/pt-br/tags/"
                 />
   </url>
 </urlset>
