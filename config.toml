@@ -1,4 +1,4 @@
-baseURL = "http://www.magnushm.github.io"
+baseURL = "/"
 title = "Magnus Thurn"
 theme = "hugo-coder"
 languageCode = "en"
@@ -10,7 +10,7 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
-publishDir = "docs"
+
  
 
 [params]
