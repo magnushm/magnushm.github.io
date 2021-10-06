@@ -3,8 +3,9 @@ title: ""
 date: 2021-07-06T23:36:50+02:00
 draft: false
 ---
-
-###### 2020.
+###### 2021
+* Renaissance Gallery, Melbourne, AU.
+###### 2020
 * K4 Galleri, Oslo, NO.
 ###### 2019
 * Galleri Lyssky, Brutus, Oslo, NO.
