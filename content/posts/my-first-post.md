@@ -16,6 +16,8 @@ I put together an output module for my eurorack synth with some old Lundahl SR50
 
 
 
-![](/images/sr5011.JPG)
+![](/B759CE98-9FE4-4587-91CE-B96771C3232F.jpeg)
 
-![sr5013](/images/sr5013.JPG)
+
+
+![sr5013](/images/B546597C-7A75-4CD3-B981-E97D61D39058.jpeg.JPG)
