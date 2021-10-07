@@ -142,10 +142,12 @@ author = "authors"
 # [languages.en]
 # languageName = ":uk:"
 
-# [[languages.en.menu.main]]
-# name = "About"
-# weight = 1
-# url = "about/"
+
+
+[[languages.en.menu.main]]
+name = "blog"
+weight = 1
+url = "posts/"
 
 [[languages.en.menu.main]]
 name = "painting"
@@ -158,7 +160,7 @@ weight = 3
 url = "work/"
 
 [[languages.en.menu.main]]
-name = "info"
+name = "cv"
 weight = 5
 url = "info/"
 
