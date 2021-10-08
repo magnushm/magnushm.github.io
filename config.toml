@@ -145,7 +145,7 @@ author = "authors"
 
 
 [[languages.en.menu.main]]
-name = "blog"
+name = "objects"
 weight = 1
 url = "posts/"
 
