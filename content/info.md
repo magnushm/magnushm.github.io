@@ -3,7 +3,9 @@ title: ""
 date: 2021-07-06T23:36:50+02:00
 draft: false
 ---
-I'm an artist, musician, programmer and writer based in Oslo, Norway. I make things. Generally without a budget, tools, funding or a plan. Most of it is for sale.
+I'm an artist, musician, programmer and writer based in Oslo, Norway. I make things. 
+Generally without a budget, tools, funding or a plan. 
+Most of it is for sale.
 
 ###### 2021
 * Renaissance Gallery, Melbourne, AU.
