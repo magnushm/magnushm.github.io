@@ -9,13 +9,12 @@ I make things. Generally without a budget, tools, funding or a plan. Most of it 
 #### Currently:
 
 
--  I'm painting inspired by early russian suprematism and cubism and working on deconstructing the stylistic and visual tropes of said movement. Some of these are up on my instagram page, but I'm fairly sick of social media so I won't be posting more of them.
-- I'm building eurorack modules out of electronic waste.
-- I'm teaching myself programming.
-- I'm exploring the relationship of non-physical "*art*"-art and classical art forms like sculpture and painting. It's more philosophy than theory.
-- I'm recording a tape for Frøya Records. https://froyarecords.bandcamp.com/
-- I'm exploring design aesthetics and code and starting my own design firm from scratch.
-- I'm designing and constructing multifunctional, modular furniture out of pallets with hand tools as a commentary on the realities of renting and having to move around alot in a weird economy.
+- Inspired by early russian suprematism and cubism and working on deconstructing the stylistic and visual tropes of said movement.
+- Building eurorack modules out of electronic waste.
+- Teaching myself programming.
+- Exploring the relationship of non-physical "*art*"-art and classical art forms like sculpture and painting. It's more philosophy than theory.
+- Releasing a tape at Frøya Records. https://froyarecords.bandcamp.com/
+- Designing  multifunctional, modular furniture out of pallets with hand tools as a commentary on the realities of renting in Oslo, Norway.
 
 ## etc:
 
