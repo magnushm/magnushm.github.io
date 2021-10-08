@@ -4,7 +4,7 @@ date: 2021-05-05T21:09:39+02:00
 draft: false
 ---
 
-I'm an artist, musician, programmer and writer nased in Oslo, Norway.
+I'm an artist, musician, programmer and writer based in Oslo, Norway.
 I make things. Generally without a budget, tools, funding or a plan. Most of it is for sale.
 #### Currently:
 
