@@ -7,19 +7,16 @@ draft: false
 #### Currently:
 
 
-- Inspired by early russian suprematism and cubism and working on deconstructing the stylistic and visual tropes of said movement.
-- Building eurorack modules out of electronic waste.
-- Teaching myself programming.
-- Exploring the relationship of non-physical "*art*"-art and classical art forms like sculpture and painting. It's more philosophy than theory.
+
 - Releasing a tape at Frøya Records. https://froyarecords.bandcamp.com/
-- Designing  multifunctional, modular furniture out of pallets with hand tools as a commentary on the realities of renting in Oslo, Norway.
+- Working on a show for http://loevenshule.gallery
+
 
 #### Previous:
 
 ##### The Scandinavian Institute of Culture, 2018-2020. 
 
- During my studies at the National Academy of the Arts in Oslo, Norway I moved from apartment to apartment 14 times due to the exorbitant rent and landlords trying to hustle me. Long story short, I got sick of it.
-The Scandinavian Institute of Culture was about me living in a sailboat in various harbors in Oslo, Norway from ca 2018 to 2020 to save money on rent and invest said money in cryptocurrency. I ran an artspace in the boat, organized a few shows with friends and spent the money I saved to purchase cryptocurrency, seeing as I didn't receive any funding from the Norwegian Council of the Arts. I also spent alot of time teaching myself web design. I didn't have a fridge but I did have a wood stove, a small Opinel knife and a bunch of tools for reparing stuff. The boat was in really bad shape but I got it reasonably cheap. In a sense it was an experiment in minimalism as well. The last couple of years hadn't been going to well career-wise, I had just turned 30 and I was feeling pretty burnt out. In the summer I went swimming every morning, and every day I'd ride my bike to and from my job at the Norwegian National Broadcasting Corporation as a part-time direct transcriber. I met quite a few interesting characters. Looking back I really, really enjoyed it. The boat was a Maxi Fenix 28 ft. sailboat from ca. 1982. 
+The Scandinavian Institute of Culture was me living in a sailboat in various harbors in Oslo, Norway from ca 2018 to 2020 to save money on rent and do my own thing for a while. I ran an artspace in the boat, organized a few shows with friends and spent the money I saved to purchase cryptocurrency, seeing as I didn't receive any funding from the Norwegian Council of the Arts. I didn't have a fridge but I did have a wood stove, a small Opinel knife and a bunch of tools for reparing stuff. The boat was in really bad shape but I got it reasonably cheap. In the summer I went swimming every morning, and every day I'd ride my bike to and from my job at the Norwegian National Broadcasting Corporation as a part-time direct transcriber. I met quite a few interesting characters.The boat was a Maxi Fenix 28 ft. sailboat from ca. 1982. 
 
 
 ![boat1](/images/baat2.jpg)
