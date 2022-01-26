@@ -155,7 +155,7 @@ weight = 2
 url = "painting/"
 
 [[languages.en.menu.main]]
-name = "projects"
+name = "etc"
 weight = 3
 url = "work/"
 
