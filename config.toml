@@ -144,10 +144,10 @@ author = "authors"
 
 
 
-[[languages.en.menu.main]]
-name = "objects"
-weight = 1
-url = "posts/"
+# [[languages.en.menu.main]]
+# name = "objects"
+# weight = 1
+# url = "posts/"
 
 [[languages.en.menu.main]]
 name = "painting"
@@ -159,10 +159,10 @@ name = "projects"
 weight = 3
 url = "work/"
 
-[[languages.en.menu.main]]
-name = "cv"
-weight = 5
-url = "info/"
+# [[languages.en.menu.main]]
+# name = "cv"
+# weight = 5
+#url = "info/"
 
 # [languages.pt-br]
 # languageName = ":brazil:"
