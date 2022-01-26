@@ -9,7 +9,7 @@ draft: false
 
 
 - Released a tape at Frøya Records. https://froyarecords.bandcamp.com/
-- Working on a show for http://loevenshule.gallery
+- Working on a show for http://loevenshule.gallery 
 
 
 #### Previous:
