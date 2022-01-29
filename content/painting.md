@@ -24,3 +24,8 @@ draft: false
 ![Insides of a boat](/images/veli.jpg)
 
 ![Insides of a boat](/images/hbt.jpg)
+
+![picture of a painting](/images/2022/IMG_1524%20(2).jpg)
+
+
+![picture of a painting](/images/2022/byr%C3%A5kratane%202021%20120x90cm.jpg)
