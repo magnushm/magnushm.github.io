@@ -38,5 +38,5 @@ draft: false
 ![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpeg)
 ![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpg)
 ![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.PNG)
-![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.jpgG)
+![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.jpg)
 
