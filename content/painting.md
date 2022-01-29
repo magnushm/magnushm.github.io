@@ -29,3 +29,14 @@ draft: false
 
 
 ![picture of a painting](/images/2022/byr%C3%A5kratane%202021%20120x90cm.jpg)
+
+![picture of a painting](/images/2022/hj%C3%B8rundfjord%2089%202021%20120x90cm.PNG)
+![picture of a painting](/images/2022/impresjonisten%202021%20120x90cm.JPG)
+![picture of a painting](/images/2022/komponist%202021%20120x90cm.jpg)
+![picture of a painting](/images/2022/r%C3%B8ynd%202021%20120x90cm.PNG)
+![picture of a painting](/images/2022/unnamed%20(2).jpg)
+![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpeg)
+![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpg)
+![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.PNG)
+![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.jpgG)
+
