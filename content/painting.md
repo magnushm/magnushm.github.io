@@ -12,11 +12,10 @@ draft: false
 ![Insides of a boat](/images/9.jpg)
 
 ![Insides of a boat](/images/imgg.jpg)
-![Insides of a boat](/images/humdrum.jpg)
+
 
 ![Insides of a boat](/images/igkgh.jpg)
 
-![Insides of a boat](/images/IMG_9115.JPG)
 
 
 ![Insides of a boat](/images/masses.jpg)
