@@ -4,7 +4,7 @@ date: 2021-07-06T23:37:13+02:00
 draft: false
 ---
 
-
+![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.jpg)
 
 ![Insides of a boat](/images/7.jpeg)
 
@@ -20,11 +20,11 @@ draft: false
 
 ![Insides of a boat](/images/masses.jpg)
 
-![Insides of a boat](/images/veli.jpg)
+
 
 ![Insides of a boat](/images/hbt.jpg)
 
-![picture of a painting](/images/2022/IMG_1524%20(2).jpg)
+
 
 
 ![picture of a painting](/images/2022/byr%C3%A5kratane%202021%20120x90cm.jpg)
@@ -37,5 +37,5 @@ draft: false
 ![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpeg)
 ![picture of a painting](/images/2022/utan%20tittel%202019%20200x120cm.jpg)
 ![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.PNG)
-![picture of a painting](/images/2022/utan%20tittel%202021%20120x90cm.jpg)
+
 
