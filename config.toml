@@ -150,9 +150,9 @@ author = "authors"
 # url = "posts/"
 
 [[languages.en.menu.main]]
-name = "painting"
-weight = 2
-url = "painting/"
+#name = "painting"
+#weight = 2
+#url = "painting/"
 
 [[languages.en.menu.main]]
 name = "etc"
