@@ -9,7 +9,7 @@ I'm removing all documentation of earlier work, as well as my CV, from the inter
 I've also removed all social media accounts and other distractions.
 If there's anything you need you can e-mail me or send me a text.
 
-At the moment I am:
+For now:
 
 - Scaling my tools down to a laptop and a sketchbook.
 - Working on a show for http://loevenshule.gallery 
