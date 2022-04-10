@@ -14,6 +14,7 @@ I work with many different technologies, I make music and I have a tendency to p
 At the moment I am:
 
 - Working on a show for http://loevenshule.gallery 
+- Painting and drawing.
 - (sort of) working on a show for Renaissance Gallery, Melbourne.
 - Releasing some music on https://froyarecords.bandcamp.com/
 - Building DIY eurorack modules
