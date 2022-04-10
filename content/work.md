@@ -6,7 +6,7 @@ draft: false
 
 Hi. My name is Magnus Holen Thurn, I'm an artist living in Norway.
 I'm removing all documentation of earlier work, as well as my CV, from the internet.
-I've also removed all my social media accounts and other distractions.
+I've also removed all social media accounts and other distractions.
 If there's anything you need you can e-mail me or send me a text.
 
 At the moment I am:
