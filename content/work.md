@@ -10,7 +10,7 @@ so if you want any of those things you can send me an e-mail or write me a text.
 I've scaled down my tools to a laptop and a sketchbook.
 it's sort of a spring cleaning of the hippocampus and a way for me to focus.
 I'd rather not deal with social media, applications, grants, juries, etc.
-I work with many different technologies, I make music and I have a tendency to paint.
+
 At the moment I am:
 
 - Working on a show for http://loevenshule.gallery 
