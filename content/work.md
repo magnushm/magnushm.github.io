@@ -16,6 +16,7 @@ At the moment I am:
 - Working on a show for http://loevenshule.gallery 
 - (sort of) working on a show for Renaissance Gallery, Melbourne.
 - Releasing some music on https://froyarecords.bandcamp.com/
+- Building DIY eurorack modules
 
 
 
