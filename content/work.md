@@ -4,9 +4,12 @@ date: 2021-05-05T21:09:39+02:00
 draft: false
 ---
 
-Hi. My name is Magnus Holen Thurn, I'm an artist living in Oslo, Norway.
-I'm removing all documentation of earlier work, as well as my CV, from the internet.
-I've also removed all social media accounts and other distractions.
+Hi. My name is Magnus Holen Thurn, I'm an artist living in Oslo, Norway.  
+
+I'm removing all documentation of earlier work, as well as my CV, from the internet.  
+
+I've also removed all social media accounts and other distractions.  
+
 If you want to have a chat, feel free to e-mail me or send me a text. :)
 
 For now:
