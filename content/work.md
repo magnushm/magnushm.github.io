@@ -16,8 +16,6 @@ For now:
 - Studing javascript, P5js and Supercollider.
 - (sort of) working on a show for Renaissance Gallery, Melbourne.
 - Releasing some music on https://froyarecords.bandcamp.com/
-- Working as a direct transcriber at NRK.
-- Riding bicycles and listening to drone music.
 
 
 
