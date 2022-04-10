@@ -7,7 +7,7 @@ draft: false
 Hi. My name is Magnus Holen Thurn, I'm an artist living in Norway.
 I'm removing all documentation of earlier work as well as my CV, from the internet, 
 so if you want any of those things you can send me an e-mail or write me a text.
-I'd rather not deal with social media, applications, grants, juries, etc.
+
 
 At the moment I am:
 
