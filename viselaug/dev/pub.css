@@ -8824,6 +8824,17 @@ section[role="main"] {
 .row.cv-section-items {
   margin-bottom: 2rem;
 }
+.title-script {
+  display: inline-block;
+  font-family: "Segoe Print", "Bradley Hand", "Snell Roundhand", cursive;
+  font-size: 0.52em;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  margin-left: 0.35rem;
+  opacity: 0.8;
+  transform: rotate(-4deg);
+  vertical-align: super;
+}
 .row.centered-cv .columns.cv-content {
   float: none;
   margin: 0 auto;
