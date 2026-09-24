@@ -21,10 +21,11 @@ body {
   background: #ffffff;
   color: #1a1a1a;
   cursor: auto;
-  font-family: "Sabon W01", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Neue Haas Grotesk W01 Disp", "Helvetica Neue", Helvetica, Roboto,
+    Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  line-height: 150%;
+  font-weight: 400;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   position: relative;
@@ -6699,6 +6700,15 @@ h6 {
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility;
+}
+
+.cv-section-title,
+.top-info summary,
+.month-entry summary,
+.month-rules,
+.medverkande {
+  font-family: "Neue Haas Grotesk W01 Disp", "Helvetica Neue", Helvetica, Roboto,
+    Arial, sans-serif;
 }
 h1 small,
 h2 small,
