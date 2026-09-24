@@ -6703,7 +6703,6 @@ h6 {
 }
 
 .cv-section-title,
-.top-info summary,
 .month-entry summary,
 .month-rules,
 .medverkande {
@@ -8854,15 +8853,13 @@ section[role="main"] {
   width: 100%;
 }
 .top-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: block;
   margin: 0 auto 1.5rem;
   max-width: 46rem;
   padding-top: 0.5rem;
   width: 100%;
 }
-.top-info,
+.top-info-text,
 .month-entry {
   display: block;
   margin: 0 auto 1.5rem;
@@ -8870,43 +8867,35 @@ section[role="main"] {
   padding-top: 0.5rem;
   width: 100%;
 }
-.top-info {
-  display: block;
+.top-info-text {
+  color: inherit;
+  font-size: 0.85rem;
+  line-height: 1.65;
   margin: 0 auto 1.5rem;
   padding: 0;
+  text-align: left;
 }
-.top-info summary,
 .month-entry summary {
   cursor: pointer;
   list-style: none;
   padding: 0.5rem 0;
   text-align: left;
 }
-.top-info summary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-}
-.top-info summary::-webkit-details-marker,
 .month-entry summary::-webkit-details-marker {
   display: none;
 }
-.top-info summary::before,
 .month-entry summary::before {
   content: "+";
   display: inline-block;
   margin-right: 0.45rem;
   min-width: 0.8em;
 }
-.top-info[open] summary::before,
 .month-entry[open] summary::before {
   content: "−";
 }
-.top-info-body,
 .entry-body {
   padding: 0 0 0.5rem;
 }
-.top-info-body p,
 .entry-body p {
   margin: 0 0 0.5rem;
 }
@@ -8929,24 +8918,6 @@ section[role="main"] {
 .medverkande a:hover,
 .medverkande a:focus {
   text-decoration: underline;
-}
-.play-button {
-  appearance: none;
-  background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  border-radius: 999px;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  margin-top: 0.75rem;
-  padding: 0.45rem 0.8rem;
-  text-transform: uppercase;
-}
-.play-button:hover,
-.play-button:focus {
-  border-color: rgba(0, 0, 0, 0.7);
 }
 .row.guitar-entry {
   min-height: 0;
