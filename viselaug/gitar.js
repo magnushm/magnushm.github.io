@@ -1,14 +1,11 @@
-p5.disableFriendlyErrors = true;
+const createGuitarSketch = (guitarBox) => (p) => {
+  let guitarModel;
+  let guitarTexture;
+  let guitarShader;
+  let guitarRotationY = 0.3;
+  let guitarRotationX = 0;
 
-let canvas;
-let guitarModel;
-let guitarTexture;
-let guitarShader;
-let guitarRotation = 0;
-let guitarRotationX = 0;
-let guitarRotationY = 0.3;
-
-const guitarVertexShader = `
+  const guitarVertexShader = `
   precision mediump float;
   attribute vec3 aPosition;
   attribute vec2 aTexCoord;
@@ -23,7 +20,7 @@ const guitarVertexShader = `
   }
 `;
 
-const guitarFragmentShader = `
+  const guitarFragmentShader = `
   precision mediump float;
   uniform sampler2D uTexture;
   uniform float uTime;
@@ -42,105 +39,108 @@ const guitarFragmentShader = `
   }
 `;
 
-function preload() {
-  guitarModel = loadModel("img/acoustic-guitar.obj");
-  guitarTexture = loadImage("img/guitar-texture.svg");
-}
+  p.preload = () => {
+    guitarModel = p.loadModel("img/acoustic-guitar.obj");
+    guitarTexture = p.loadImage("img/guitar-texture.svg");
+  };
 
-function setup() {
-  const guitarBox = document.querySelector(".guitar-entry");
-  canvas = createCanvas(guitarBox.clientWidth, guitarBox.clientHeight, WEBGL);
-  canvas.parent(guitarBox);
-  canvas.position(0, 0);
-  canvas.style("z-index", "-1");
-  frameRate(20);
-  guitarShader = createShader(guitarVertexShader, guitarFragmentShader);
-}
+  p.setup = () => {
+    const canvas = p.createCanvas(guitarBox.clientWidth, guitarBox.clientHeight, p.WEBGL);
+    canvas.parent(guitarBox);
+    canvas.position(0, 0);
+    canvas.style("z-index", "-1");
+    p.frameRate(20);
+    guitarShader = p.createShader(guitarVertexShader, guitarFragmentShader);
+  };
 
-function draw() {
-  background("white");
-  guitarRotationX += 0.04;
+  p.draw = () => {
+    p.background("white");
+    guitarRotationX += 0.04;
 
 
-  push();
-  translate(0, 40, 55);
-  rotateY(guitarRotationX);
-  rotateZ(PI + sin(guitarRotationY) * -2.6);
-  scale(24);
+    p.push();
+    p.translate(0, 40, 55);
+    p.rotateY(guitarRotationX);
+    p.rotateZ(p.PI + p.sin(guitarRotationY) * -2.6);
+    p.scale(24);
 
-  noStroke();
-  shader(guitarShader);
-  guitarShader.setUniform("uTexture", guitarTexture);
-  guitarShader.setUniform("uTime", frameCount / 20.0);
-  model(guitarModel);
-  resetShader();
+    p.noStroke();
+    p.shader(guitarShader);
+    guitarShader.setUniform("uTexture", guitarTexture);
+    guitarShader.setUniform("uTime", p.frameCount / 20.0);
+    p.model(guitarModel);
+    p.resetShader();
 
   // Simple foreground details give the low-poly mesh its musical landmarks.
-  push();
-  translate(0, -0.15, 0.34);
-  fill(35, 22, 17);
-  ellipse(0, 0, 0.72, 0.72);
-  noFill();
-  stroke(212, 145, 72, 220);
-  strokeWeight(0.035);
-  ellipse(0, 0, 0.9, 0.9);
-  pop();
+    p.push();
+    p.translate(0, -0.15, 0.34);
+    p.fill(35, 22, 17);
+    p.ellipse(0, 0, 0.72, 0.72);
+    p.noFill();
+    p.stroke(212, 145, 72, 220);
+    p.strokeWeight(0.035);
+    p.ellipse(0, 0, 0.9, 0.9);
+    p.pop();
 
-  push();
-  translate(0, -0.93, 0.35);
-  fill(70, 36, 20);
-  box(0.95, 0.16, 0.04);
-  pop();
+    p.push();
+    p.translate(0, -0.93, 0.35);
+    p.fill(70, 36, 20);
+    p.box(0.95, 0.16, 0.04);
+    p.pop();
 
-  push();
-  translate(0, 2.8, 0.22);
-  fill(132, 68, 31);
-  box(0.42, 2.8, 0.12);
-  pop();
+    p.push();
+    p.translate(0, 2.8, 0.22);
+    p.fill(132, 68, 31);
+    p.box(0.42, 2.8, 0.12);
+    p.pop();
 
-  push();
-  translate(0, 2.6, 0.31);
-  fill(58, 32, 21);
-  box(0.34, 3.05, 0.04);
-  pop();
+    p.push();
+    p.translate(0, 2.6, 0.31);
+    p.fill(58, 32, 21);
+    p.box(0.34, 3.05, 0.04);
+    p.pop();
 
-  push();
-  translate(0, 4.28, 0.31);
-  fill(155, 83, 39);
-  box(0.68, 0.58, 0.14);
-  pop();
+    p.push();
+    p.translate(0, 4.28, 0.31);
+    p.fill(155, 83, 39);
+    p.box(0.68, 0.58, 0.14);
+    p.pop();
 
   // Fret markers and six tuning machines add scale to the neck.
-  noStroke();
-  fill(220, 178, 105);
-  for (const fret of [2.15, 2.75, 3.35, 3.85]) {
-    push();
-    translate(0, fret, 0.4);
-    sphere(0.055, 8, 4);
-    pop();
-  }
-
-  for (const pegY of [4.08, 4.28, 4.48]) {
-    for (const side of [-1, 1]) {
-      push();
-      translate(side * 0.48, pegY, 0.4);
-      rotateZ(HALF_PI);
-      fill(75, 45, 28);
-      cylinder(0.035, 0.22, 8, 1);
-      pop();
-
-      push();
-      translate(side * 0.63, pegY, 0.4);
-      fill(210, 170, 100);
-      sphere(0.09, 8, 4);
-      pop();
+    p.noStroke();
+    p.fill(220, 178, 105);
+    for (const fret of [2.15, 2.75, 3.35, 3.85]) {
+      p.push();
+      p.translate(0, fret, 0.4);
+      p.sphere(0.055, 8, 4);
+      p.pop();
     }
-  }
 
-  pop();
-}
+    for (const pegY of [4.08, 4.28, 4.48]) {
+      for (const side of [-1, 1]) {
+        p.push();
+        p.translate(side * 0.48, pegY, 0.4);
+        p.rotateZ(p.HALF_PI);
+        p.fill(75, 45, 28);
+        p.cylinder(0.035, 0.22, 8, 1);
+        p.pop();
 
-function windowResized() {
-  const guitarBox = document.querySelector(".guitar-entry");
-  resizeCanvas(guitarBox.clientWidth, guitarBox.clientHeight);
-}
+        p.push();
+        p.translate(side * 0.63, pegY, 0.4);
+        p.fill(210, 170, 100);
+        p.sphere(0.09, 8, 4);
+        p.pop();
+      }
+    }
+
+    p.pop();
+  };
+
+  p.windowResized = () => {
+    p.resizeCanvas(guitarBox.clientWidth, guitarBox.clientHeight);
+  };
+};
+
+document.querySelectorAll(".guitar-entry").forEach((guitarBox) => {
+  new p5(createGuitarSketch(guitarBox));
+});
