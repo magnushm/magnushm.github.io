@@ -8856,23 +8856,23 @@ section[role="main"] {
   display: block;
   margin: 0 auto 1.5rem;
   max-width: 46rem;
-  padding-top: 0.5rem;
-  width: 100%;
+  padding: 0.5rem 0.75rem 0;
+  width: calc(100% - 1.5rem);
 }
 .top-info-text,
 .month-entry {
   display: block;
   margin: 0 auto 1.5rem;
   max-width: 46rem;
-  padding-top: 0.5rem;
-  width: 100%;
+  padding: 0.5rem 0.75rem 0;
+  width: calc(100% - 1.5rem);
 }
 .top-info-text {
   color: inherit;
   font-size: 0.85rem;
   line-height: 1.65;
   margin: 0 auto 1.5rem;
-  padding: 0;
+  padding: 0 0.75rem;
   text-align: left;
 }
 .month-entry summary {
@@ -8934,8 +8934,9 @@ section[role="main"] {
   height: 560px;
   margin: 2rem auto 0;
   max-width: 46rem;
+  padding: 0 0.75rem;
   position: relative;
-  width: 100%;
+  width: calc(100% - 1.5rem);
 }
 .guitar-stage canvas {
   left: 50% !important;
@@ -8943,6 +8944,27 @@ section[role="main"] {
   top: 0 !important;
   transform: translateX(-50%);
   z-index: 0 !important;
+}
+
+@media (max-width: 640px) {
+  section[role="main"] {
+    padding-top: 2.5rem;
+  }
+
+  .top-nav,
+  .top-info-text,
+  .month-entry,
+  .guitar-stage {
+    width: calc(100% - 1.25rem);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .title-script {
+    display: inline;
+    margin-left: 0.2rem;
+    vertical-align: baseline;
+  }
 }
 .row.cv-section-items .columns.cv-year {
   text-align: right;
