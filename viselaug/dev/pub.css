@@ -8839,6 +8839,7 @@ section[role="main"] {
   margin: 0 auto 1.5rem;
   max-width: 46rem;
   padding-top: 0.5rem;
+  width: 100%;
 }
 .top-info,
 .month-entry {
@@ -8846,10 +8847,11 @@ section[role="main"] {
   margin: 0 auto 1.5rem;
   max-width: 46rem;
   padding-top: 0.5rem;
+  width: 100%;
 }
 .top-info {
-  display: inline-block;
-  margin: 0;
+  display: block;
+  margin: 0 auto 1.5rem;
   padding: 0;
 }
 .top-info summary,
