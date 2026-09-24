@@ -141,6 +141,7 @@ const createGuitarSketch = (guitarBox) => (p) => {
   };
 };
 
-document.querySelectorAll(".guitar-entry").forEach((guitarBox) => {
-  new p5(createGuitarSketch(guitarBox));
-});
+const guitarStage = document.getElementById("guitar-stage");
+if (guitarStage) {
+  new p5(createGuitarSketch(guitarStage));
+}

@@ -8949,9 +8949,9 @@ section[role="main"] {
   border-color: rgba(0, 0, 0, 0.7);
 }
 .row.guitar-entry {
-  min-height: 560px;
-  overflow: hidden;
-  position: relative;
+  min-height: 0;
+  overflow: visible;
+  position: static;
 }
 .guitar-entry .cv-content {
   position: relative;
@@ -8959,10 +8959,18 @@ section[role="main"] {
   text-align: left;
   padding-top: 0.5rem;
 }
-.guitar-entry canvas {
-  left: 0 !important;
+.guitar-stage {
+  height: 560px;
+  margin: 2rem auto 0;
+  max-width: 46rem;
+  position: relative;
+  width: 100%;
+}
+.guitar-stage canvas {
+  left: 50% !important;
   position: absolute !important;
   top: 0 !important;
+  transform: translateX(-50%);
   z-index: 0 !important;
 }
 .row.cv-section-items .columns.cv-year {
